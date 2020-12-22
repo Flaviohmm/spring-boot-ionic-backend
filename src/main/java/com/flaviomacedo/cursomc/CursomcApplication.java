@@ -105,7 +105,7 @@ public class CursomcApplication implements CommandLineRunner {
 		clienteRepository.saveAll(Arrays.asList(cliente1));
 		enderecoRepository.saveAll(Arrays.asList(endereco1, endereco2));
 
-		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy hh:mm");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 
 		Pedido pedido1 = new Pedido(null, dateFormat.parse("30/09/2017 10:32"), cliente1, endereco1);
 		Pedido pedido2 = new Pedido(null, dateFormat.parse("10/10/2017 19:35"), cliente1, endereco2);
