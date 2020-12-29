@@ -3,7 +3,7 @@ package com.flaviomacedo.cursomc.domain.enums;
 public enum TipoCliente {
 	
 	PESSOAFISICA(1, "Pesssoa Física"),
-	PESSOAJURIDICA(1, "Pessoa Jurídica");
+	PESSOAJURIDICA(2, "Pessoa Jurídica");
 	
 	private int cod;
 	private String descricao;
