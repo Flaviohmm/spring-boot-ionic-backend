@@ -17,9 +17,9 @@
 	<name>cursomc</name>
 	<description>Estudo de caso Java para curso de Modelagem Conceitual com UML</description>
 
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+<!-- 	<properties> -->
+<!-- 		<java.version>11</java.version> -->
+<!-- 	</properties> -->
 
 	<dependencies>
 		<dependency>
